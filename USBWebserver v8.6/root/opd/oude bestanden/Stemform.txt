@@ -1,0 +1,65 @@
+-- phpMyAdmin SQL Dump
+-- version 3.2.0.1
+-- http://www.phpmyadmin.net
+--
+-- Machine: localhost
+-- Genereertijd: 11 Mei 2011 om 07:09
+-- Serverversie: 5.1.36
+-- PHP-Versie: 5.3.0
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `Openbedrijvendag`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `stemmen`
+--
+
+CREATE TABLE IF NOT EXISTS `stemmen` (
+  `Bedrijfje` int(11) NOT NULL,
+  `Naam` varchar(40) NOT NULL,
+  `Aantal` int(11) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Gegevens worden uitgevoerd voor tabel `stemmen`
+--
+
+INSERT INTO `stemmen` (`Bedrijfje`, `Naam`, `Aantal`) VALUES
+(1, 'B-Bridge', 0),
+(2, 'Garage Nijs en zonen bvba', 0),
+(3, 'Garage Feyaerts bvba', 0),
+(4, 'Open School Hageland Aarschot/Diest', 0),
+(5, 'Duracell Batteries bvba', 0),
+(6, 'Vrije Basisschool Den Hulst', 0),
+(7, 'Vrije Basisschool Pastoor Dergent', 0),
+(8, 'Joker Events', 0),
+(9, 'Hospital Logistics', 0),
+(10, 'Open School Hageland Aarschot', 0),
+(11, 'Actief Interim', 0),
+(12, 'Medisch Centrum Aarschot', 0),
+(13, 'T-interim nv', 0),
+(14, 'Home Services', 0),
+(15, 'Uitgeverij Averbode', 0),
+(16, 'Gemeentelijke basisschool De hei', 0),
+(17, 'Runtime Services Dienstencheques', 0),
+(18, 'Krantenshop ROB bvba', 0),
+(19, 'Randstad', 0),
+(20, 'Runtime Services', 0),
+(21, 'Dienstencentrum Het Anker vzw', 0),
+(22, 'Argenta', 0),
+(23, 'Basisschool Sancta Maria Aarschot', 0),
+(24, 'Belgium Welding bvba', 0),
+(25, 'Dienstencentrum Het Anker vzw', 0),
+(26, 'Duracell Batteries bvba', 0),
+(27, 'Garage J. Peeters nv', 0),
+(28, 'Immo D & T', 0),
+(29, 'Inca Networks nv', 0),
+(30, 'Java bvba', 0),
+(31, 'Open School Hageland Diest', 0),
+(32, 'Weston nv', 0);
+
