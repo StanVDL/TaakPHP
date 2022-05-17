@@ -12,5 +12,22 @@
 	</div>
 </section>
 <section class="headerbar">
-	<h1>Welkom</h1>
+	<h1>Hamburger</h1>
+</section>
+<section class="food-menu">
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                   <img src="css/Images/burger.jpg" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Food Title</h4>
+                    <p class="food-price">$2.3</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, Chicken, and organice vegetables.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Bestel nu</a>
+      </div>
 </section>

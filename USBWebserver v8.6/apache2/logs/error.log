@@ -1,5 +1,6 @@
-[Fri May 13 08:45:37.889463 2022] [mpm_winnt:notice] [pid 8876:tid 864] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
-[Fri May 13 08:45:37.889463 2022] [mpm_winnt:notice] [pid 8876:tid 864] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
-[Fri May 13 08:45:37.889463 2022] [core:notice] [pid 8876:tid 864] AH00094: Command line: 'D:\\Webdesign Stan\\PHPTAAK\\TaakPHP\\USBWebserver v8.6/apache2/bin/httpd_usbwv8.exe -d D:/Webdesign Stan/PHPTAAK/TaakPHP/USBWebserver v8.6/apache2'
-[Fri May 13 08:45:37.889463 2022] [mpm_winnt:notice] [pid 8876:tid 864] AH00418: Parent: Created child process 6788
-[Fri May 13 08:45:38.376312 2022] [mpm_winnt:notice] [pid 6788:tid 828] AH00354: Child: Starting 64 worker threads.
+[Mon May 16 14:16:33.965889 2022] [mpm_winnt:notice] [pid 16996:tid 704] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Mon May 16 14:16:33.965889 2022] [mpm_winnt:notice] [pid 16996:tid 704] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Mon May 16 14:16:33.965889 2022] [core:notice] [pid 16996:tid 704] AH00094: Command line: 'D:\\Webdesign Stan\\PHPTAAK\\TaakPHP\\USBWebserver v8.6/apache2/bin/httpd_usbwv8.exe -d D:/Webdesign Stan/PHPTAAK/TaakPHP/USBWebserver v8.6/apache2'
+[Mon May 16 14:16:33.967890 2022] [mpm_winnt:notice] [pid 16996:tid 704] AH00418: Parent: Created child process 17268
+[Mon May 16 14:16:34.545674 2022] [mpm_winnt:notice] [pid 17268:tid 764] AH00354: Child: Starting 64 worker threads.
+[Mon May 16 14:17:00.324469 2022] [core:error] [pid 17268:tid 1276] (20024)The given path is misformatted or contained invalid characters: [client ::1:60099] AH00127: Cannot map GET /css/Images%0Burger.jpg HTTP/1.1 to file, referer: http://localhost:8080/css/styles.css
